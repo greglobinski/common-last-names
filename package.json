@@ -1,6 +1,6 @@
 {
   "name": "common-last-names",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get most common last names",
   "main": "dist/index.js",
   "scripts": {
