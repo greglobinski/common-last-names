@@ -4,7 +4,7 @@
 
 # common-last-names
 
-This is the list of the most common last names.
+This is the list of the most common last names in US.
 
 [codecov-badge]: https://img.shields.io/codecov/c/github/greglobinski/common-last-names.svg
 [travis-badge]: https://img.shields.io/travis/greglobinski/common-last-names.svg
