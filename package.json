@@ -12,7 +12,6 @@
         "build:umd.min": "webpack --output-filename index.umd.min.js --mode production",
         "test": "jest --coverage",
         "test:watch": "jest --watch",
-        "watch:test": "mocha --watch",
         "lint": "eslint src",
         "report-coverage": "cat ./coverage/lcov.info | codecov",
         "validate": "cross-env NO_UPDATE_NOTIFIER=true npm-run-all --parallel test lint build",
@@ -92,14 +91,7 @@
     "babel": {
         "presets": [
             "env"
-        ],
-        "env": {
-            "test": {
-                "plugins": [
-                    "istanbul"
-                ]
-            }
-        }
+        ]
     },
     "config": {
         "commitizen": {
